@@ -15,6 +15,7 @@
   <packaging>pom</packaging>
 
   <modules>
+    <module>../openvdb/platform</module>
     <module>../opencv/platform</module>
     <module>../ffmpeg/platform</module>
     <module>../flycapture/platform</module>

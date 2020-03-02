@@ -346,7 +346,7 @@
             <configuration>
               <classifier>${javacpp.platform}${javacpp.platform.extension}</classifier>
               <skipIfEmpty>true</skipIfEmpty>
-              <includes> 
+              <includes>
                 <!-- In case of successive builds for multiple platforms
                      without cleaning, ensures we only include files for
                      this platform. -->
@@ -575,6 +575,7 @@
         </property>
       </activation>
       <modules>
+        <module>openvdb</module>
         <module>opencv</module>
         <module>ffmpeg</module>
         <module>flycapture</module>
